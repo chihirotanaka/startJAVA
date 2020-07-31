@@ -1,21 +1,26 @@
 
 public class Chapter08 {
 	public static void main(String[] args) {
+
 		int num = 1;
-		while ( num < 5 );
-		num *= 2;
-		System.out.println("While =" + num );
-		
-		int num array = { 1, 2, 3, 4 };
-		for ()
-			System.out.println("For = "+ num.length );
-				
-		int array = { 2 *=};
-		for(number : array) {
-			
+		while ( num < 5 ) {
+			System.out.println(num * num);
+			num++;
 		}
-	    if (num %=2 ) {
-	}continue{
-		System.out.println("Continue" + )
+
+		int array[] = { 1, 4, 14, 25 };
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+		}
+
+		for (int val : array) {
+			if (val % 2 == 0) {
+				continue;
+		}
+			System.out.println(val);
+		}
 	}
 }
+
+
+
