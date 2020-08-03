@@ -4,7 +4,7 @@ public class Car {
 
 	private double fuelCost;
 
-	Private double fuelAmount;
+	private double fuelAmount;
 
 //	コンストラクタを作成
 	public Car(double fuelCost, double fuelAmount) {
@@ -17,7 +17,7 @@ public class Car {
 //	."@@ km 走ります"を出力
 	public void move(int km) {
 		System.out.println(km + "km走ります");
-		this.fuelAmount -= (km / fuelcost);
+		this.fuelAmount -= (km / fuelCost);
 	}
 //	.残量を計算
 

@@ -6,7 +6,7 @@ public class Chapter09 {
 
 		double fuelAmount = 55.0;
 
-		Car car new Car(fuelCost, fuelAmount);
+		Car car = new Car(fuelCost, fuelAmount);
 
 		car.move(20);
 		System.out.println("残量は" + car.getFuelAmount() +"です。");
